@@ -2,10 +2,10 @@ package com.rahul.oops;
 
 public class StudentCount {
     public static void main(String[] args) {
-        Stud s1 = new Stud("Harry", 1);
-        Stud s2 = new Stud("Tim", 2);
-        System.out.println("Name: " + s1.name);
-        System.out.println("id: " + s1.id);
+        Stud student1 = new Stud("Harry", 1);
+        Stud student2 = new Stud("Tim", 2);
+        System.out.println("Name: " + student1.name);
+        System.out.println("id: " + student1.id);
         System.out.println("number of students are: " + Stud.count);
 
     }
